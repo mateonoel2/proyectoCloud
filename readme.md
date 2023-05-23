@@ -1,5 +1,5 @@
 ## Definición de la aplicación
-La aplicación será un sistema de predicción de la hora de llegada de los autobuses basado en los modelos guardados en archivos .h3. Proporcionará una plataforma para que los usuarios puedan estimar la hora de llegada de los autobuses, ayudándoles a planificar sus horarios de forma eficaz. Este sistema utilizará algoritmos de aprendizaje automático para procesar y analizar los datos anteriores de horarios de autobuses y otras variables relevantes para predecir la hora con precisión.
+La aplicación será un sistema de predicción de la hora de llegada de los autobuses basado en los modelos guardados en archivos .h5. Proporcionará una plataforma para que los usuarios puedan estimar la hora de llegada de los autobuses, ayudándoles a planificar sus horarios de forma eficaz. Este sistema utilizará algoritmos de aprendizaje automático para procesar y analizar los datos anteriores de horarios de autobuses y otras variables relevantes para predecir la hora con precisión.
 
 
 ## Funcionalidades, características y arquitectura
@@ -26,4 +26,3 @@ Utilizando bases de datos en la nube y tecnologías de big data, la aplicación 
 
 ## Repositorio GitHub
 El repositorio GitHub de esta aplicación se encuentra en: https://github.com/mateonoel2/proyectoCloud Contiene todo el código, las dependencias y las instrucciones necesarias para ejecutar la aplicación.
-
