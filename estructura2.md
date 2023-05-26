@@ -1,54 +1,38 @@
 # Estructura de archivos
-
 ```
 /proyectoCloud
     /app
+        /static
             /models
-                - model.h5
-        - __init__.py
-        - routes.py
-        - forms.py
+            - model.h5
         - prediction_service.py
-        - utils.py
+
     /tests
         - test_prediction_service.py
         - test_routes.py
     /migrations
+
     - .gitignore
     - Dockerfile
     - requirements.txt
     - README.md
     - run.py
     - config.py
+    
     /react
-        /templates
-            -index.html
-            - home.html
-            - results.html
-        /static
-            /css
-                - main.css
-            /js
-                - main.js
-            /images
-                - logo.png
+        - public
+        - src
+        - index.html
+        - package.json
 ```
 
 Explicación de la estructura de archivos:
 
 - `app`: Directorio principal de la aplicación Flask.
 
-- `templates`: Archivos HTML de las plantillas Flask.
-
 - `static`: Archivos estáticos como CSS, JavaScript, imágenes y modelos.
 
 - `models`: Modelos de aprendizaje automático en formato .h5 y spark.
-
-- `__init__.py`: Inicializa la aplicación y reúne todas las partes de esta.
-
-- `routes.py`: Definimos las rutas HTTP de la aplicación.
-
-- `forms.py`: Define los formularios de Flask-WTForms.
 
 - `prediction_service.py`: Este es el servicio de predicción que utiliza el modelo de aprendizaje automático para predecir la hora de llegada del autobús.
 
